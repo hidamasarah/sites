@@ -1,0 +1,476 @@
+/* Cross Browser Compatability CSS */
+
+*  {box-sizing: border-box; }
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code, del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var, b, i, dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+blockquote, q { quotes: none; }
+
+blockquote:before, blockquote:after,
+q:before, q:after { content: ""; content: none; }
+
+ins { background-color: #ff9; color: #000; text-decoration: none; }
+
+mark { background-color: #ff9; color: #000; font-style: italic; font-weight: bold; }
+
+del { text-decoration: line-through; }
+
+abbr[title], dfn[title] { border-bottom: 1px dotted; cursor: help; }
+
+table { border-collapse: collapse; border-spacing: 0; }
+
+hr { display: block; height: 1px; border: 0; border-top: 1px solid #ccc; margin: 1em 0; padding: 0; }
+
+input, select { vertical-align: middle; }
+
+
+
+/* Write your CSS styles here */
+
+
+
+/* Main Page Divs */
+
+#container {
+ }
+
+#nav {
+height: 100px;
+width:100%;
+background-color: #FFF;
+display: flex; 
+flex-direction: row;
+margin:auto;
+flex-wrap: wrap;  
+color: #fa7580;
+}
+
+
+#nav a:link {
+    text-decoration: none;
+    color: #fa7580;
+    }
+
+#nav a:visited {
+color: #fa7580;
+}
+
+
+#name {
+padding-top:75px;
+padding-bottom: 10px;
+width:100%;
+height:600px;
+background-color:#9ad0db;
+margin:auto;
+
+}
+
+
+#name p {
+padding-left: 40px;
+padding-right:40px;
+}
+
+
+
+#name img {
+width:200px;
+border-radius:100%;
+margin: 0 auto;
+display:block;
+margin:auto;
+border-style: solid;
+border-width: 5px;
+border-color:#FFF;
+
+}
+
+
+#cando {
+padding-top:25px;
+width:100%;
+height:450px;
+background-color:#F9F9F9;
+color:#ffad4f;
+padding-bottom:10px;
+}
+
+#projects {
+text-align:center;
+padding-top:25px;
+width:100%;
+background-color:#fa7580;
+padding-bottom:20px;
+
+}
+
+#projects img {
+ 	border-style: solid;
+	border-width: 5px;
+    border-color:#FFF;
+   margin-left:20px;
+   margin-top:20px;
+}
+
+
+#blog {
+padding-top:25px;
+padding-left: 40px;
+padding-right:40px;
+width:100%;
+height:333px;
+background-color:#F9F9F9;
+color:#CF9E2D;
+padding-bottom:10px;
+
+}
+
+
+
+
+#contact {
+padding-top:25px;
+width:100%;
+height:333px;
+background-color:#66b3cc;
+padding-bottom:10px;
+
+}
+
+
+
+#icon-div{
+width: 100%;
+height:30px;
+display: flex; 
+justify-content: space-around;
+padding-top:40px;
+}
+
+img.icon {
+flex-grow: 1;
+flex-direction: row;
+flex-wrap: wrap; 
+justify-content:center;
+align-items:stretch;
+
+}
+
+
+
+
+/* Porfolio Page Divs */
+
+#porfolioimages {
+padding-top:50px;
+width:100%;
+padding-left: 50px;
+padding-right:50px;
+}
+
+#porfolioimages img{
+display: block;
+height: 500px;
+margin: auto;
+}
+
+
+
+#portfoliodescription {
+height: 600px;
+width: 100%;
+background-color: #9ad0db;
+padding-left: 50px;
+padding-right:50px;
+}
+
+p#desc {
+font-size:1.1em;
+font-style: italic;
+text-align:center;
+padding-bottom: 15px;
+    
+
+
+}
+#portfoliodescription h2 {
+padding-bottom:0px;
+}
+
+
+#portfoliodescription li {
+text-align:left;
+}
+
+#portfoliodescription ul {
+padding-top:10px;
+padding-bottom: 10px;
+}
+
+.btn {
+  -webkit-border-radius: 28;
+  -moz-border-radius: 28;
+  border-radius: 28px;
+  -webkit-box-shadow: 0px 1px 3px #666666;
+  -moz-box-shadow: 0px 1px 3px #666666;
+  box-shadow: 0px 1px 3px #666666;
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 20px;
+  background: #fa7580;
+  padding: 10px 20px 10px 20px;
+  border: solid #f7636f 2px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #f04a58;
+  text-decoration: none;
+}
+
+
+ #button {
+  float: left;
+  z-index: 99;
+  position: absolute;
+  margin-top: -90px;
+  margin-left: 40%;   
+}
+    
+#button a {
+color:white;
+    
+}
+
+#portfoliodescription ul li {
+    list-style-type: disc;
+    margin-left: 1.5em; /* which should give space for the disc to show */
+}
+
+
+
+/* fonts */
+
+
+body {
+color: #fff;
+background-color:#fff;
+}
+
+h1 {
+font-family: 'Pacifico', cursive;
+font-size: 4em;
+text-align:center;
+}
+
+
+h2 {
+font-family: 'Pacifico', cursive;
+font-size: 2.4em;
+text-align:center;
+padding-bottom:20px;
+}
+
+
+h5 {
+text-align:center;
+font-family:'Open Sans';
+font-size: 1.61em;
+}
+
+li {
+font-family:'Open Sans';
+text-align:center;
+padding-bottom:.2em;
+}
+
+
+h3 {
+color: #fa7580;
+font-family: 'Pacifico', cursive;
+font-size: 50px;
+float:left;
+flex-grow: 1;
+padding-left:20px;
+
+}
+
+h4 {
+
+font-size: 1.4em;
+font-family:'Open Sans';
+padding-left:10px;
+flex-grow: 1;
+margin: auto;
+
+}
+
+h4#tagline  {
+    
+      color: #fa7580;
+    
+}
+
+p {
+font-family:'Open Sans';
+font-size: 1.1em;
+}
+
+
+a:link {
+color: #CF9E2D
+}
+
+a:visited {
+color: #CF9E2D
+}
+
+/* media queries */
+
+
+
+@media screen and (min-width:320px) and (max-width:620px){
+
+h5 {
+font-size:1em;
+}
+
+h3 {
+	font-size:3em;
+	text-align:center;
+	padding-left:20px;
+	padding-right:20px;
+	margin:auto;
+}
+
+h4 {
+	font-size: 1em;
+	text-align:center;
+	padding-top:30px;
+}
+
+#name {
+	padding-top: 15px;
+}
+
+li {
+padding-bottom: 1em;
+padding-left: 20px;
+padding-right: 20px;
+text-align: left;
+}
+
+#cando {
+	height:550px;
+}
+
+#projects img {
+		border-style: solid;
+		border-width: 3px;
+		border-color:#FFF;
+	   margin-bottom:10px
+}
+
+#projects {
+	height:700px;
+}
+
+h5 {
+font-size: 1em;
+}
+
+h2 {
+font-size: 2em;
+}
+
+#nav {
+height: 140px;
+display: flex;
+flex-direction: row;
+margin: auto;
+flex-wrap: wrap;
+}
+
+
+img.icon {
+flex-grow: 1;
+flex-direction: row;
+flex-wrap: wrap; 
+padding-left:5px;
+
+}
+
+}
+
+
+@media screen and (min-width: 621px) and (max-width: 767px){
+
+h3 {
+	font-size:3em;
+	text-align:center;
+	padding-left:20px;
+	padding-right:20px;
+	margin:auto;
+	}
+
+h4 {
+	font-size: 1.4em;
+	text-align:center;
+	padding-top:30px;
+}
+
+
+@media screen and (min-width: 768px) and (orientation: landscape) {
+
+h3 {
+	font-size:3em;
+	text-align:center;
+	padding-left:20px;
+	padding-right:20px;
+	margin:auto;
+}
+
+h4 {
+	font-size: 6em;
+	text-align:center;
+	padding-top:30px;
+}
+
+}
+
+
+
+/* Bootstrap modifications */
+    
+
+ .navbar-default {
+        
+background-color: white;
+     background-im  none;
+ }
+
+
+
+
+
+

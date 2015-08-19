@@ -1,0 +1,140 @@
+/* Cross Browser Compatability CSS */
+
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code, del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var, b, i, dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+blockquote, q { quotes: none; }
+
+blockquote:before, blockquote:after,
+q:before, q:after { content: ""; content: none; }
+
+ins { background-color: #ff9; color: #000; text-decoration: none; }
+
+mark { background-color: #ff9; color: #000; font-style: italic; font-weight: bold; }
+
+del { text-decoration: line-through; }
+
+abbr[title], dfn[title] { border-bottom: 1px dotted; cursor: help; }
+
+table { border-collapse: collapse; border-spacing: 0; }
+
+hr { display: block; height: 1px; border: 0; border-top: 1px solid #ccc; margin: 1em 0; padding: 0; }
+
+input, select { vertical-align: middle; }
+
+
+
+/* Write your CSS styles here */
+
+#div-wrapper {
+background: url('https://farm8.staticflickr.com/7552/15859949890_a95f4aa1c7_o.png');
+position: absolute;
+height: 100%;
+width: 100%;
+}
+
+#div-background{
+position:relative;
+margin: 0 70px;
+height: 100%;
+background: url('https://ununsplash.imgix.net/photo-1416339684178-3a239570f315?q=75&fm=jpg&s=c39d9a3bf66d6566b9608a9f1f3765af') no-repeat;
+background-attachment: fixed;
+background-size: cover;
+background-position: center;
+border-radius: 3px;
+z-index:2;
+}
+
+#side-container-div{
+float: right;
+width: 320px;
+height: 80%;
+margin: 25px 10px 25px 0px;
+z-index:3;
+position:relative;
+}
+
+
+#side-panel-div {
+background: rgba(255, 255, 255, 0.9);
+padding: 5px 0px 10px 20px;
+margin: 0px 0px 10px 0px;
+border-radius: 3px;
+position:relative;
+}
+
+#icon-div{
+float: left;
+clear: both;
+width: 320px;
+Bottom: 25px;
+z-index:3;
+position:relative;
+position:relative;
+}
+
+img.icon {
+padding-left: 4px;
+}
+
+
+#side-panel-div img {
+margin: auto;
+display:block;
+border-radius: 20px;
+}
+
+p {
+color: #2f332f;
+font-size: 1em;
+line-height: 120%;
+font-family: 'Roboto', sans-serif;
+  margin-top: 0em;
+  margin-bottom: 1.04em;
+}
+
+h1 {
+  color: #ed622b;
+  font-size: 2.4em;
+font-family: 'Montserrat', sans-serif;
+  line-height: 100%;
+}
+
+h2 {
+color: white;
+background: #2f332f;
+border-bottom-left-radius: 5px;
+padding: 10px;
+margin: 15px 0 15px;
+letter-spacing: 1.25px;
+font-weight: lighter;
+  font-size: 1.4em;
+font-family: 'Montserrat', sans-serif;
+}
+
+a:link {
+    color: #ed622b;   
+}
+a:visited {
+    color:  #b04173;
+}
+  

@@ -1,0 +1,225 @@
+/* Cross Browser Compatability CSS */
+
+*  {box-sizing: border-box; }
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code, del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var, b, i, dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+blockquote, q { quotes: none; }
+
+blockquote:before, blockquote:after,
+q:before, q:after { content: ""; content: none; }
+
+ins { background-color: #ff9; color: #000; text-decoration: none; }
+
+mark { background-color: #ff9; color: #000; font-style: italic; font-weight: bold; }
+
+del { text-decoration: line-through; }
+
+abbr[title], dfn[title] { border-bottom: 1px dotted; cursor: help; }
+
+table { border-collapse: collapse; border-spacing: 0; }
+
+hr { display: block; height: 1px; border: 0; border-top: 1px solid #ccc; margin: 1em 0; padding: 0; }
+
+input, select { vertical-align: middle; }
+
+/* background-color:#e3cacf; */
+
+/* Write your CSS styles here */
+
+/* media queries */
+
+
+
+body {
+color:#FFF;
+}
+
+#header img {   
+
+    -webkit-transform: rotate(90deg);
+    -moz-transform: rotate(90deg);
+    -ms-transform: rotate(90deg);
+    -o-transform: rotate(90deg);
+    transform: rotate(90deg);
+}
+
+
+#container {
+}
+
+#header {
+width:100%;
+text-align:center;
+color:#fff;
+}
+
+#topheader {
+background-color:rgba(227,202,207,.3);
+z-index: 99;
+width:100%;
+height:300px;
+}
+
+#lowercontainer {
+display: flex;
+flex-direction:row;
+flex-wrap: wrap;
+
+height: 500px;
+width:100%;
+}
+
+#menu {
+background-color: #d4c3cd;
+flex-grow: 1;
+align-self: auto; 
+}
+
+
+#weddings {
+flex-grow: 1;
+align-self: auto; 
+background-color: #ecf0e6;
+
+}
+
+#blog {
+flex-grow: 1;
+align-self: auto; 
+background-color:#d8d4d9;
+}
+
+
+
+
+
+/* fonts */
+
+h1 {
+font-family: 'Pacifico', cursive;
+font-size: 6em;
+text-align:center;
+}
+
+h2 {
+font-family: 'Open Sans';
+font-size: 3em;
+}
+
+h3 {
+font-family: 'Pacifico', cursive;
+font-size: 4em;
+text-align:center;
+}
+
+
+
+@media screen and (max-width: 700px) and (min-device-width: 401px) {
+
+
+#container {
+}
+
+#header {
+
+height:300px;
+width:100%;
+text-align:center;
+color:#fff;
+background-image:url('http://www.bhmpics.com/wallpapers/birthday_cupcakes_and_candles-1920x1200.jpg');
+  background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center; 
+    background
+
+ background-size: cover;
+}
+
+#topheader {
+background-color:rgba(227,202,207,.7);
+z-index: 99;
+width:100%;
+height:300px;
+}
+
+#lowercontainer {
+display: flex;
+flex-direction:column;
+flex-wrap: wrap;
+
+height: 500px;
+width:100%;
+}
+
+#menu {
+background-color: #d4c3cd;
+flex-grow: 1;
+align-self: auto; 
+}
+
+
+#weddings {
+flex-grow: 1;
+align-self: auto; 
+background-color: #ecf0e6;
+
+}
+
+#blog {
+flex-grow: 1;
+align-self: auto; 
+background-color:#d8d4d9;
+}
+
+
+}
+
+@media screen and (max-width: 400px) {
+
+#lowercontainer {
+display: flex;
+flex-direction:column;
+flex-wrap: wrap;
+height: 500px;
+width:100%;
+}
+
+
+h1 {
+font-size: 3em;
+}
+
+h2 {
+font-size: 2em;
+}
+
+h3 {
+font-size: 2em;
+}
+
+
+
+
+}
+
+

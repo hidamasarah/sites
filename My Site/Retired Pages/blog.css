@@ -1,0 +1,250 @@
+/* Cross Browser Compatability CSS */
+
+*  {box-sizing: border-box; }
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code, del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var, b, i, dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+blockquote, q { quotes: none; }
+
+blockquote:before, blockquote:after,
+q:before, q:after { content: ""; content: none; }
+
+ins { background-color: #ff9; color: #000; text-decoration: none; }
+
+mark { background-color: #ff9; color: #000; font-style: italic; font-weight: bold; }
+
+del { text-decoration: line-through; }
+
+abbr[title], dfn[title] { border-bottom: 1px dotted; cursor: help; }
+
+table { border-collapse: collapse; border-spacing: 0; }
+
+hr { display: block; height: 1px; border: 0; border-top: 1px solid #ccc; margin: 1em 0; padding: 0; }
+
+input, select { vertical-align: middle; }
+
+
+
+/* Write your CSS styles here */
+
+
+body {
+color: #707070;
+font-size: .98em;
+font-family: Open Sans;
+line-height: 1.4;
+background: #ffffff;
+width: 100%;
+margin: 0;
+padding: 0;
+}
+
+/* Header and Nav */
+#page-container {
+margin-bottom: 0;
+}
+
+#nav-bar-container {
+position: relative;
+float: left;
+width:100%;
+height:85px;
+border-bottom: 4px double #E6E6E6;
+text-align: left;
+ }
+
+
+#nav-bar {
+position: relative;
+float:left;
+padding-top: 25px;
+
+}
+
+#nav-bar-image {
+position: relative;
+float:left;
+display: block;
+width:80px;
+padding-top:5px;
+padding-bottom:5px;
+padding-left:10px;
+}
+
+ul.nav {
+margin:auto;
+text-align:left;
+}
+
+li.nav {
+    display: inline;
+    margin-left: 1em;
+}
+
+
+.searchform {
+display: inline;
+
+}
+
+/* formatting */
+p {
+color: #2f332f;
+font-size: 1em;
+line-height: 120%;
+font-family: 'Roboto', sans-serif;
+  margin-top: 0em;
+  margin-bottom: 1.04em;
+}
+
+h1 {
+color: #CF9E2D;
+font-size: 24px;
+line-height: 1.5;
+text-transform: uppercase;
+font-weight: 700;
+letter-spacing: .08em;
+font-family: 'Roboto', sans-serif;
+}
+
+h2 {
+color: #CF9E2D;
+letter-spacing: 1.25px;
+font-weight: 700;
+font-size: 1.6em;
+font-family: 'Playfair Display';
+}
+
+h3 {
+color: #2f332f;
+font-size: .8em;
+font-family: 'Playfair Display';
+font-style: italic;
+}
+
+
+h4 {
+color: #CF9E2D;
+font-size: 1.6em;
+line-height: 120%;
+font-family: 'Playfair Display';
+font-weight: 700;
+font-style: italic;
+}
+
+
+h5 {
+color: #2f332f;
+font-size: 1.2em;
+line-height: 120%;
+font-family: 'Playfair Display';
+font-style: italic;
+}
+
+h6 {
+color: #2f332f;
+font-size: 1em;
+font-family: 'Playfair Display';
+font-style: italic;
+}
+
+a:link {
+    text-decoration: none;
+    color: #CF9E2D;  
+}
+
+h1 a:visited {
+ text-decoration: none;
+    color: #CF9E2D; 
+    }
+
+a:visited {
+text-decoration: none;
+    color: #f2999a;
+    }
+     
+a:hover {
+    text-decoration: none;
+ 	color: #9ED9C0;
+}
+
+
+/* side bar */
+
+#sidebar-container {
+margin-top: 20px;
+clear:both;
+position:relative;
+float: right;
+width: 25%;
+height: 900px;
+padding:25px;
+}
+
+#sidebar {
+position:relative;
+float: right;
+width: 100%;
+height: 600px;
+background: #E6E6E6;
+padding: 10px 5px 0px 15px;
+border-radius: 9px;
+}
+
+#sidebar-logo {
+position:relative;
+float: right;
+width: 100%;
+height: 170px;
+}
+
+
+/* main */
+
+
+#main-blog {
+position: relative;
+float: left;
+width:75%;
+height: 960px;
+padding: 50px;
+margin-top:20px;
+}
+
+
+/* footer */
+
+#footer {
+clear:both;
+position:relative;
+height: 100px;
+width: 100%;
+float: left;
+background: #E6E6E6;
+z-index:5;
+text-align: right;
+padding: 25px;
+}
+
+
+
+

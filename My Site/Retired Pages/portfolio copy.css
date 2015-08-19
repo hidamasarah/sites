@@ -1,0 +1,291 @@
+/* Cross Browser Compatability CSS */
+
+*  {box-sizing: border-box; }
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code, del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var, b, i, dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+blockquote, q { quotes: none; }
+
+blockquote:before, blockquote:after,
+q:before, q:after { content: ""; content: none; }
+
+ins { background-color: #ff9; color: #000; text-decoration: none; }
+
+mark { background-color: #ff9; color: #000; font-style: italic; font-weight: bold; }
+
+del { text-decoration: line-through; }
+
+abbr[title], dfn[title] { border-bottom: 1px dotted; cursor: help; }
+
+table { border-collapse: collapse; border-spacing: 0; }
+
+hr { display: block; height: 1px; border: 0; border-top: 1px solid #ccc; margin: 1em 0; padding: 0; }
+
+input, select { vertical-align: middle; }
+
+
+
+/* Write your CSS styles here */
+
+
+#header {
+    width: auto;
+    height:600px;
+    background-size: cover;
+    background-position: center;
+    background-image: url(https://ununsplash.imgix.net/photo-1416339684178-3a239570f315); 
+    background-color: rgb(255,255,255); opacity: .7;
+    
+}
+
+
+
+#work {
+    width:100%;
+    height:600px;
+    background-color: #fff;
+}
+
+
+#work img {
+ 	border-style: solid;
+	border-width: 5px;
+    border-color:#FFF;
+   margin-left:20px;
+   margin-top:20px;
+    
+}
+
+
+#services {  
+
+     width:100%;
+    height:600px;
+}
+
+#services li {
+    text-align:center;
+    padding-bottom:.7em;
+    font-size:1.4em;
+}
+
+#services ul{
+    padding-top: 75px;
+}
+
+
+#about {
+    padding-left: 40px;
+    padding-right:40px;
+    height:600px;
+    width:100%; 
+    background: #f9f9f9;
+    padding-top: 75px;
+}
+
+p#center {
+    text-align:center;
+}
+
+
+#about img {
+width:200px;
+border-radius:100%;
+margin: 0 auto;
+display:block;
+margin:auto;
+border-style: solid;
+border-width: 5px;
+border-color:#FFF;
+
+}
+
+
+#footer {
+    background-color:black;
+    width:100%;
+    height:300px;
+}
+
+
+/*    fonts     */
+
+h1#logo {
+    font-family: 'Pacifico';
+    font-size: 2em;
+    float: left;
+    padding-left: 20px;
+    padding-top: 10px;
+    color:#282b28;
+    position:absolute;
+    z-index: 99;
+}
+
+h1 {
+    font-family: 'Pacifico';
+    font-size: 1.61em;
+    color:#282b28;
+}
+
+
+h1#greeting {
+    font-family: 'Pacifico';
+    font-size: 2em;
+    text-align: center;
+}
+
+
+h2 {
+    font-family: 'Playfair Display', serif;
+  font-size: 3em;
+  text-align: center;
+  margin-top: 25px;
+  margin-bottom: 6px;
+}
+
+
+h3 {
+   font-family: 'Fauna One', serif;
+    font-size: 1.4em;
+    text-align: center;
+}
+
+p {
+    font-family: 'Playfair Display', serif;
+    font-size: 1em;
+}
+
+
+p#byline {
+    font-family: 'Pacifico';
+    font-size: 2em;
+    float: left;
+    padding-left: 100px;
+    padding-top: 150px;
+    color:#282b28;
+    position:absolute;
+    z-index: 99;
+}
+
+
+/* modals */
+
+.modalDialog {
+	position: fixed;
+    overflow: scroll;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	background: rgba(0,0,0,0.8);
+	z-index: 99999;
+	opacity:0;
+	-webkit-transition: opacity 400ms ease-in;
+	-moz-transition: opacity 400ms ease-in;
+	transition: opacity 400ms ease-in;
+	pointer-events: none;
+}
+.modalDialog:target {
+	opacity:1;
+	pointer-events: auto;
+}
+
+.modalDialog > div {
+	width: 75%;
+  
+	position: relative;
+	margin: 10% auto;
+	padding: 5px 20px 13px 20px;
+	border-radius: 10px;
+	background: #fff;
+	background: -moz-linear-gradient(#fff, #999);
+	background: -webkit-linear-gradient(#fff, #999);
+	background: -o-linear-gradient(#fff, #999);
+}
+
+.close {
+	background: #606061;
+	color: #FFFFFF;
+	line-height: 25px;
+	position: absolute;
+	right: -12px;
+	text-align: center;
+	top: -10px;
+	width: 24px;
+	text-decoration: none;
+	font-weight: bold;
+	-webkit-border-radius: 12px;
+	-moz-border-radius: 12px;
+	border-radius: 12px;
+	-moz-box-shadow: 1px 1px 3px #000;
+	-webkit-box-shadow: 1px 1px 3px #000;
+	box-shadow: 1px 1px 3px #000;
+}
+
+.close:hover { background: #00d9ff; }
+
+
+
+
+#porfolioimages {
+padding-top:50px;
+width:100%;
+padding-left: 50px;
+padding-right:50px;
+}
+
+#porfolioimages img{
+display: block;
+height: 300px;
+margin: auto;
+}
+
+
+
+#portfoliodescription {
+}
+
+p#desc {
+font-style: italic;
+text-align:center;
+padding-bottom: 15px;
+padding-top: 10px;
+color:whitesmoke;    
+
+}
+
+
+#portfoliodescription li {
+text-align:left;
+}
+
+#portfoliodescription ul {
+padding-top:10px;
+padding-bottom: 10px;
+}
+
+
+#portfoliodescription ul li {
+    list-style-type: disc;
+    margin-left: 1.5em; /* which should give space for the disc to show */
+}
+
